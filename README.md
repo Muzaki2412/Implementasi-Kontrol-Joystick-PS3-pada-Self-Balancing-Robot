@@ -2,4 +2,4 @@
 
 Penelitian ini membahas tentang sistem kontrol robot penyeimbang diri dengan menggunakan remote control melalui komunikasi Bluetooth dengan menggunakan metode proportional integral derivative (PID) dan Kalman Filter. Alat yang digunakan pada sistem ini yaitu ESP32, MPU6050, driver motor, stepdown, baterai li-ion, dan motor DC. Sistem ini dapat berjalan berdasarkan inputan sinyal dari sensor MPU6050 yang digunakan untuk mendapatkan nilai setpoint. Jika nilai pembacaan sensor tidak sesuai dengan setpoint, maka robot akan bergerak dan berusaha menyeimbangkan diri. Penambahan Kalman filter digunakan untuk menghilangkan noise pada pembacaan sensor. Hasil pengujian pada robot menunjukkan bahwa jangkauan efektif antara remote control dan robot tanpa adanya obstacle atau rintangan yaitu 8 meter. Sedangkan untuk jangkauan efektif antara remote control dan robot dengan adanya obstacle atau rintangan 7 meter. 
 
-https://youtu.be/hnWAiaImK-c?si=YOZt5Qgrn8JjibeC
+Berikut vidio demo robot dan penjelasannya https://youtu.be/hnWAiaImK-c?si=YOZt5Qgrn8JjibeC
